@@ -249,7 +249,7 @@ text-align: center;
      background-size: 200% auto;
      color: white;            
      box-shadow: 0 0 0px #eee;
-     border-radius: 5px;
+     border-radius: 40px;
      display: block;
      border: none;
      cursor: pointer;
@@ -309,4 +309,15 @@ text-align: center;
   .logo{
     width: 200px;
   }
+}
+
+.vertical{
+  border-left: 3px solid #707070;
+  height: 50px;
+  position:absolute;
+  left: 10%;
+}
+
+.title-msg {
+  
 }
