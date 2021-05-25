@@ -51,7 +51,7 @@ html, body {
     font-size: 30px;
   }
 
-  .container .item--1 {
+  .container .bestil-text {
     background-color: rgb(241, 80, 21);
   }
   
@@ -59,8 +59,8 @@ html, body {
     background-color: rgb(186, 218, 124);
   }
 
-  .container-heading .item--1 {
-    border: 2px solid #000;
+  .container-heading .bestil-text {
+    border: 2px solid red;
   }
 
 /* Sections */
@@ -90,4 +90,9 @@ html, body {
 .croissant-img{
 text-align: center;
 
+}
+
+.bestil-text p{
+    padding-left: 10%;
+    padding-right: 10%;
 }
