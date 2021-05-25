@@ -79,3 +79,16 @@ html, body {
 .heading span{
     font-size: 50px;
 }
+
+.croissant{
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border: 3px solid green;
+  padding: 10px;
+  margin: 30px auto;
+}
+
+.croissant-img{
+text-align: center;
+}
