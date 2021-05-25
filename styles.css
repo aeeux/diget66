@@ -187,6 +187,24 @@ html, body {
     margin-top: 10px;
 }
 
+.process-title{
+  font-size: 1.5rem;
+  color: #eeebeb;
+  line-height: 130%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.spørgsmål-bestil{
+  color: #eeebeb;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  padding-bottom: 100px;
+}
+
 /* Fonts */
 
 .heading{

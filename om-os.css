@@ -4,3 +4,18 @@
     list-style: none;
     text-decoration: none;
 }
+
+body {
+    background-color: #101010;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    color: #eeebeb;
+    font-family: "Work Sans", 700;
+}
+
+p {
+    color:#eeebeb;
+    font-family: "Work Sans", 400;
+}                                   
