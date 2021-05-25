@@ -11,6 +11,7 @@ html, body {
     font-size: 1.25rem;
     font-family: "work sans",sans-serif;
     line-height: 150%;
+    background-color: #101010;
 }
 
 .container {
@@ -86,6 +87,7 @@ html, body {
     height: auto;
 }
 
-div {
+.croissant-img{
 text-align: center;
+
 }
