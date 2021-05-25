@@ -14,6 +14,8 @@ html, body {
     background-color: #101010;
 }
 
+
+/*grids*/
 .container {
     width: 1000px;
     margin: 30px auto;
@@ -51,6 +53,8 @@ html, body {
     font-size: 30px;
   }
 
+
+/*
   .container .bestil-text {
     background-color: rgb(241, 80, 21);
   }
@@ -61,7 +65,7 @@ html, body {
 
   .container-heading .bestil-text {
     border: 2px solid red;
-  }
+  }*/
 
 /* Sections */
 
@@ -72,27 +76,59 @@ html, body {
 /* Fonts */
 
 .heading{
-    font-size: 60px;
+    font-size: 1.5rem;
     color: #eeebeb;
-    line-height: 4rem;
+    line-height: 130%;
+    text-align: center;
 }
 
 .heading span{
-    font-size: 50px;
+    font-size: 34px;
 }
 
 
+.bestil-text p{
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+}
+
 .croissant{
-    width: 60%;
+    width: 80%;
     height: auto;
+    padding-top: 65px;
 }
 
 .croissant-img{
 text-align: center;
 
 }
-
-.bestil-text p{
-    padding-left: 10%;
-    padding-right: 10%;
+.btn-center{
+    text-align: center;
 }
+
+    .btn1 {background-image: linear-gradient(to right, #FFB75E 0%, #ED8F03  51%, #FFB75E  100%)}
+    .btn1 {
+       margin: auto;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 0px #eee;
+       border-radius: 40px;
+       display: block;
+       border: none;
+       cursor: pointer;
+
+     }
+
+     .btn1:hover {
+       background-position: right center; 
+       color: #fff;
+       text-decoration: none;
+     }
+    
