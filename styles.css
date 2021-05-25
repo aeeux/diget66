@@ -313,11 +313,24 @@ text-align: center;
 
 .vertical{
   border-left: 3px solid #707070;
-  height: 50px;
+  height: 40px;
   position:absolute;
   left: 10%;
 }
 
-.title-msg {
-  
+.msg {
+  font-size: 10px;
+  font-weight: 400;
+  color: blue;
+  margin-top: -20px;
+  margin-bottom: -35px;
+  padding: 10px;
+}
+
+.text {
+  color: #ffffff;
+}
+
+.title {
+  color: #ffffff;
 }
