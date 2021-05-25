@@ -52,11 +52,11 @@ html, body {
   }
 
   .container .item--1 {
-    background-color: orangered;
+    background-color: rgb(241, 80, 21);
   }
   
   .container .croissant-img {
-    background-color: yellowgreen;
+    background-color: rgb(186, 218, 124);
   }
 
   .container-heading .item--1 {
