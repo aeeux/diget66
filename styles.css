@@ -11,7 +11,6 @@ html, body {
     font-size: 1.25rem;
     font-family: "work sans",sans-serif;
     line-height: 150%;
-    text-shadow: 0 2px 2px #b6701e;
 }
 
 .container {
@@ -29,6 +28,7 @@ html, body {
 .container-heading {
     width: 1000px;
     margin: 30px auto;
+    margin-bottom: -180px;
     display: grid;
     width: 90%;
     grid-template-rows: repeat(2, minmax(150px, min-content));
@@ -42,14 +42,12 @@ html, body {
     padding: 10px;
     color: #ffffff;
     font-size: 60px;
-    background-color: rgb(223, 191, 180);
   }
 
   .container .item {
     padding: 10px;
     color: white;
     font-size: 30px;
-    background-color: rgb(223, 191, 180);
   }
 
   .container .item--1 {
@@ -61,5 +59,23 @@ html, body {
   }
 
   .container-heading .item--1 {
-    background-color: rgb(117, 50, 205);
+    border: 2px solid #000;
   }
+
+/* Sections */
+
+.content-mid{
+    background-color: #303030;
+}
+
+/* Fonts */
+
+.heading{
+    font-size: 60px;
+    color: #000000;
+    line-height: 4rem;
+}
+
+.heading span{
+    font-size: 50px;
+}
