@@ -221,19 +221,30 @@ html, body {
 }
 
 .heading span{
-    font-size: 50px;
+    font-size: 40px;
 }
+
+/* Images */
 
 .croissant{
   margin: auto;
   width: 100%;
   height: auto;
-  border: 3px solid green;
   padding: 10px;
   margin: 30px auto;
 }
 
 .croissant-img{
+text-align: center;
+}
+
+.hero{
+  width: 100%;
+  height: auto;
+  margin: 30px 0px -50px 0px;
+}
+
+.hero-img{
 text-align: center;
 }
 
@@ -246,16 +257,6 @@ text-align: center;
   line-height: 150%;
 }
 
-.croissant{
-  width: 80%;
-  height: auto;
-  padding-top: 65px;
-}
-
-.croissant-img{
-text-align: center;
-
-}
 .btn-center{
   text-align: center;
 }
@@ -270,7 +271,7 @@ text-align: center;
      background-size: 200% auto;
      color: white;            
      box-shadow: 0 0 0px #eee;
-     border-radius: 40px;
+     border-radius: 5px;
      display: block;
      border: none;
      cursor: pointer;
