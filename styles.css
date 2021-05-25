@@ -202,6 +202,19 @@ html, body {
   text-align: center;
   font-size: 16px;
   line-height: 150%;
+  padding-bottom: 10px;
+}
+
+
+.process-bestil{
+  width: 80%;
+  height: auto;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.div-process{
+  text-align: center;
   padding-bottom: 100px;
 }
 
