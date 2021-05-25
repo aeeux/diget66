@@ -273,3 +273,10 @@ text-align: center;
        text-decoration: none;
      }
     
+
+     .striped-border { 
+        border: 1.2px dashed #eeebeb; 
+        width: 20%; 
+        margin: auto; 
+        margin-top: -2%; 
+        margin-bottom: 0%; }
