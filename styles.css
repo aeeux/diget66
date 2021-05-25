@@ -39,21 +39,3 @@ html, body {
   .container .item--2 {
     background-color: yellowgreen;
   }
-  .container .item--3 {
-    background-color: blueviolet;
-  }
-  .container .item--4 {
-    background-color: palevioletred;
-  }
-  .container .item--5 {
-    background-color: royalblue;
-  }
-  .container .item--6 {
-    background-color: goldenrod;
-  }
-  .container .item--7 {
-    background-color: crimson;
-  }
-  .container .item--8 {
-    background-color: darkslategray;
-  }
