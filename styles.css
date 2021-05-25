@@ -249,7 +249,7 @@ text-align: center;
      background-size: 200% auto;
      color: white;            
      box-shadow: 0 0 0px #eee;
-     border-radius: 5px;
+     border-radius: 40px;
      display: block;
      border: none;
      cursor: pointer;
@@ -310,3 +310,29 @@ text-align: center;
     width: 200px;
   }
 }
+
+.vertical{
+  border-left: 3px solid #707070;
+  height: 40px;
+  position:absolute;
+  left: 10%;
+}
+
+.msg {
+  font-size: 10px;
+  font-weight: 400;
+  color: blue;
+  margin-top: -20px;
+  margin-bottom: -35px;
+  padding: 10px;
+}
+
+.text {
+  color: #ffffff;
+}
+
+.title {
+  color: #ffffff;
+}
+
+/* Footer */
