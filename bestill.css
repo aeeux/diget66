@@ -280,3 +280,8 @@ text-align: center;
         margin: auto; 
         margin-top: -2%; 
         margin-bottom: 0%; }
+
+
+        a {
+            text-decoration: none;
+        }
