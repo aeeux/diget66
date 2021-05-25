@@ -54,7 +54,7 @@ html, body {
     background-color: orangered;
   }
   
-  .container .item--2 {
+  .container .croissant-img {
     background-color: yellowgreen;
   }
 
@@ -78,4 +78,14 @@ html, body {
 
 .heading span{
     font-size: 50px;
+}
+
+
+.croissant{
+    width: 60%;
+    height: auto;
+}
+
+div {
+text-align: center;
 }
