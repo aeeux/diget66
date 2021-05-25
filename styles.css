@@ -184,7 +184,7 @@ html, body {
 /* Sections */
 
 .content-mid{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 /* Fonts */
@@ -273,17 +273,18 @@ text-align: center;
 /* Seperators */
 
 .seperator {
-  width: 50%;
+  width: 80%;
   border-color: #D17200;
-  margin-top: -40px;
+  margin-top: -100px;
+  margin-bottom: -100px;
 }
 
 .striped-border { 
-  border: 1.2px dashed #eeebeb; 
-  width: 20%; 
-  margin: auto; 
-  margin-top: -2%; 
-  margin-bottom: 0%; 
+  border: 1.2px dashed #eeebeb;
+  width: 20%;
+  margin: auto;
+  margin-top: -2%;
+  margin-bottom: 0%;
 }
 
 /* Media Queries */
