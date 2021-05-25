@@ -131,29 +131,6 @@ html, body {
   top: 0;
 }
 
-/* 48em = 768px */
-
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-  .logo{
-    width: 200px;
-  }
-}
-
-
 /* Grids */
 
 .container {
@@ -213,14 +190,23 @@ html, body {
 /* Fonts */
 
 .heading{
-    font-size: 2rem;
-    color: #ffffff;
-    line-height: 2.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  color: #eeebeb;
+  line-height: 130%;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .heading span{
-    font-size: 40px;
+  font-size: 34px;
+}
+
+.bestil-text p{
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 /* Images */
@@ -247,14 +233,7 @@ text-align: center;
 text-align: center;
 }
 
-
-.bestil-text p{
-  padding-left: 4%;
-  padding-right: 4%;
-  text-align: center;
-  font-size: 16px;
-  line-height: 150%;
-}
+/* Button */
 
 .btn-center{
   text-align: center;
@@ -283,146 +262,46 @@ text-align: center;
      text-decoration: none;
    }
 
+   a {
+    text-decoration: none;
+}
+
+/* Seperators */
+
 .seperator {
   width: 50%;
   border-color: #D17200;
   margin-top: -40px;
 }
 
+.striped-border { 
+  border: 1.2px dashed #eeebeb; 
+  width: 20%; 
+  margin: auto; 
+  margin-top: -2%; 
+  margin-bottom: 0%; 
+}
 
+/* Media Queries */
 
+/* 48em = 768px */
 
-
-/*--------------- Bestil--------------*/
-
-
-/*grids*/
-.container {
-    width: 1000px;
-    margin: 30px auto;
-    display: grid;
-    width: 90%;
-    grid-template-rows: repeat(2, minmax(150px, min-content));
-    grid-template-columns: repeat(auto-fill, 100px);
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 150px;
+@media (min-width: 48em) {
+  .header li {
+    float: left;
   }
-
-.container-heading {
-    width: 1000px;
-    margin: 30px auto;
-    margin-bottom: -180px;
-    display: grid;
-    width: 90%;
-    grid-template-rows: repeat(2, minmax(150px, min-content));
-    grid-template-columns: repeat(auto-fill, 100px);
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 150px;
+  .header li a {
+    padding: 20px 30px;
   }
-
-  .container-heading .item {
-    padding: 10px;
-    color: #ffffff;
-    font-size: 60px;
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
   }
-
-  .container .item {
-    padding: 10px;
-    color: white;
-    font-size: 30px;
+  .header .menu-icon {
+    display: none;
   }
-
-
-/*
-  .container .bestil-text {
-    background-color: rgb(241, 80, 21);
+  .logo{
+    width: 200px;
   }
-  
-  .container .croissant-img {
-    background-color: rgb(186, 218, 124);
-  }
-
-  .container-heading .bestil-text {
-    border: 2px solid red;
-  }*/
-
-/* Sections */
-
-.content-mid{
-    background-color: #101010;
 }
-
-/* Fonts */
-
-.heading{
-    font-size: 1.5rem;
-    color: #eeebeb;
-    line-height: 130%;
-    text-align: center;
-    padding-top: 30px;
-}
-
-.heading span{
-    font-size: 34px;
-}
-
-
-.bestil-text p{
-    padding-left: 4%;
-    padding-right: 4%;
-    text-align: center;
-    font-size: 16px;
-    line-height: 150%;
-}
-
-.croissant{
-    width: 80%;
-    height: auto;
-    padding-top: 65px;
-}
-
-.croissant-img{
-text-align: center;
-
-}
-.btn-center{
-    text-align: center;
-}
-
-    .btn1 {background-image: linear-gradient(to right, #FFB75E 0%, #ED8F03  51%, #FFB75E  100%)}
-    .btn1 {
-       margin: auto;
-       padding: 15px 45px;
-       text-align: center;
-       text-transform: uppercase;
-       transition: 0.5s;
-       background-size: 200% auto;
-       color: #eeebeb;            
-       box-shadow: 0 0 0px #eee;
-       border-radius: 40px;
-       display: block;
-       border: none;
-       cursor: pointer;
-
-     }
-
-     .btn1:hover {
-       background-position: right center; 
-       color: #fff;
-       text-decoration: none;
-     }
-    
-
-     .striped-border { 
-        border: 1.2px dashed #eeebeb; 
-        width: 20%; 
-        margin: auto; 
-        margin-top: -2%; 
-        margin-bottom: 0%; }
-
-
-        a {
-            text-decoration: none;
-        }
