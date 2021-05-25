@@ -193,15 +193,43 @@ html, body {
   line-height: 130%;
   text-align: center;
   padding-top: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .spørgsmål-bestil{
   color: #eeebeb;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 11%;
+  padding-right: 11%;
   text-align: center;
   font-size: 16px;
   line-height: 150%;
+  padding-bottom: 10px;
+}
+
+.spørgsmål-bestil2{
+  color: #eeebeb;
+  padding-left: 11%;
+  padding-right: 11%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  padding-bottom: 0px;
+}
+
+.process-bestil{
+  width: 80%;
+  height: auto;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.div-process{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.hjælp{
   padding-bottom: 100px;
 }
 
