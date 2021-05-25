@@ -207,6 +207,15 @@ html, body {
   padding-bottom: 10px;
 }
 
+.spørgsmål-bestil2{
+  color: #eeebeb;
+  padding-left: 11%;
+  padding-right: 11%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  padding-bottom: 0px;
+}
 
 .process-bestil{
   width: 80%;
@@ -217,6 +226,10 @@ html, body {
 
 .div-process{
   text-align: center;
+  padding-bottom: 50px;
+}
+
+.hjælp{
   padding-bottom: 100px;
 }
 
