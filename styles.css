@@ -266,6 +266,10 @@ text-align: center;
     text-decoration: none;
 }
 
+.btn-second {
+  background-image: linear-gradient(to right, #585858 0%, #7a7a7a  51%, #363636  100%)
+}
+
 /* Seperators */
 
 .seperator {
