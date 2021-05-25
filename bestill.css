@@ -65,14 +65,14 @@ html, body {
 /* Sections */
 
 .content-mid{
-    background-color: #303030;
+    background-color: #101010;
 }
 
 /* Fonts */
 
 .heading{
     font-size: 60px;
-    color: #000000;
+    color: #eeebeb;
     line-height: 4rem;
 }
 
