@@ -11,6 +11,7 @@ html, body {
     font-size: 1.25rem;
     font-family: "work sans",sans-serif;
     line-height: 150%;
+    background-color: #0e0e0e;
 }
 
 /* Navigation */
@@ -169,7 +170,7 @@ html, body {
 
 .container-heading {
     width: 1000px;
-    margin: 30px auto;
+    margin: 60px auto;
     margin-bottom: -180px;
     display: grid;
     width: 90%;
@@ -183,7 +184,6 @@ html, body {
   .container-heading .item {
     padding: 10px;
     color: #ffffff;
-    font-size: 60px;
   }
 
   .container .item {
@@ -208,15 +208,16 @@ html, body {
 
 .content-mid{
     background-color: #0e0e0e;
-    margin-top: -30px;
+    margin-top: 100px;
 }
 
 /* Fonts */
 
 .heading{
-    font-size: 60px;
+    font-size: 2rem;
     color: #ffffff;
-    line-height: 4rem;
+    line-height: 2.5rem;
+    text-align: center;
 }
 
 .heading span{
@@ -234,4 +235,56 @@ html, body {
 
 .croissant-img{
 text-align: center;
+}
+
+
+.bestil-text p{
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.croissant{
+  width: 80%;
+  height: auto;
+  padding-top: 65px;
+}
+
+.croissant-img{
+text-align: center;
+
+}
+.btn-center{
+  text-align: center;
+}
+
+  .btn1 {background-image: linear-gradient(to right, #FFB75E 0%, #ED8F03  51%, #FFB75E  100%)}
+  .btn1 {
+     margin: auto;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 0px #eee;
+     border-radius: 40px;
+     display: block;
+     border: none;
+     cursor: pointer;
+
+   }
+
+   .btn1:hover {
+     background-position: right center; 
+     color: #fff;
+     text-decoration: none;
+   }
+
+.seperator {
+  width: 50%;
+  border-color: #D17200;
+  margin-top: -40px;
 }
