@@ -41,10 +41,50 @@ html, body {
   color: #fafafa;
 }
 
-.header li a:hover,
+/*.header li a:hover,
 .header .menu-btn:hover {
   background-color: #f4f4f459;
+}*/
+
+
+.header a:hover{
+	color: #FFB75E;
+	transition: .22s ease-in-out;
+	 top: -3px;
+	font-size: 110%;
 }
+
+.header a{
+	transition: .22s ease-in-out;
+	position: relative;
+	top: 0;
+	
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 1;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #ED8F03;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.header a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+.header ul li.current-menu-item a{
+    border-bottom: 2px solid #ED8F03;
+    display: inline-block;
+    padding-bottom: -300px;
+}
+
 
 .logo {
   display: block;
