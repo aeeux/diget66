@@ -608,10 +608,11 @@ padding-bottom: 0px;
 }
 
 .process-bestil{
-width: 80%;
+width: 70%;
 height: auto;
 padding-left: 3%;
 padding-right: 3%;
+padding-top: 20px;
 }
 
 .div-process{
@@ -630,7 +631,7 @@ font-size: 1.5rem;
 color: #eeebeb;
 line-height: 130%;
 text-align: center;
-padding-top: 30px;
+padding-top: 65px;
 }
 
 .heading span{
@@ -643,6 +644,11 @@ padding-right: 4%;
 text-align: center;
 font-size: 16px;
 line-height: 150%;
+padding-top: 29px;
+}
+
+.container2{
+  padding-top: 15px
 }
 
 /* Images */
@@ -653,6 +659,7 @@ width: 100%;
 height: auto;
 padding: 10px;
 margin: 30px auto;
+padding-top: -100px;
 }
 
 .croissant-img{
