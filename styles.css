@@ -883,3 +883,122 @@ padding-top: -100px;
 text-align: center;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+/*----------4K bestil-----------*/
+
+
+@media only screen and (max-width: 2560px) and (min-width: 1441px){
+
+  
+  /* Sections */
+
+.content-mid{
+  margin-top: 10px;
+}
+
+.process-title{
+font-size: 2.5rem;
+color: #eeebeb;
+line-height: 130%;
+text-align: center;
+padding-top: -1000px;
+padding-left: 3%;
+padding-right: 3%;
+}
+
+.spørgsmål-bestil{
+color: #eeebeb;
+padding-left: 11%;
+padding-right: 11%;
+text-align: center;
+font-size: 27px;
+line-height: 150%;
+padding-bottom: 10px;
+}
+
+.spørgsmål-bestil2{
+color: #eeebeb;
+padding-left: 20%;
+padding-right: 20%;
+text-align: center;
+font-size: 27px;
+line-height: 150%;
+padding-bottom: 0px;
+}
+
+.process-bestil{
+width: 70%;
+height: auto;
+padding-left: 3%;
+padding-right: 3%;
+padding-top: 20px;
+}
+
+.div-process{
+text-align: center;
+padding-bottom: 50px;
+}
+
+.hjælp{
+padding-bottom: 100px;
+}
+
+/* Fonts */
+
+.heading{
+font-size: 2.5rem;
+color: #eeebeb;
+line-height: 130%;
+text-align: center;
+padding-top: 65px;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+.heading span{
+font-size: 56px;
+}
+
+.bestil-text p{
+padding-left: 7%;
+padding-right:7%;
+text-align: center;
+font-size: 27px;
+line-height: 150%;
+padding-top: 68px;
+}
+
+.container2{
+  padding-top: 25px
+}
+
+
+.btn1{
+  font-size: 19px;
+}
+
+/* Images */
+
+.croissant{
+margin: auto;
+width: 100%;
+height: auto;
+padding: 10px;
+margin: 30px auto;
+padding-top: -100px;
+}
+
+.croissant-img{
+text-align: center;
+}
+}
