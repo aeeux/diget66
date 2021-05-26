@@ -907,11 +907,11 @@ text-align: center;
 }
 
 .process-title{
-font-size: 2.5rem;
+font-size: 3.8rem;
 color: #eeebeb;
 line-height: 130%;
 text-align: center;
-padding-top: -1000px;
+padding-top: 180px;
 padding-left: 3%;
 padding-right: 3%;
 }
@@ -921,7 +921,7 @@ color: #eeebeb;
 padding-left: 11%;
 padding-right: 11%;
 text-align: center;
-font-size: 27px;
+font-size: 50px;
 line-height: 150%;
 padding-bottom: 10px;
 }
@@ -931,7 +931,7 @@ color: #eeebeb;
 padding-left: 20%;
 padding-right: 20%;
 text-align: center;
-font-size: 27px;
+font-size: 50px;
 line-height: 150%;
 padding-bottom: 0px;
 }
@@ -956,11 +956,11 @@ padding-bottom: 100px;
 /* Fonts */
 
 .heading{
-font-size: 2.5rem;
+font-size: 3.9rem;
 color: #eeebeb;
 line-height: 130%;
 text-align: center;
-padding-top: 65px;
+padding-top: 175px;
 padding-left: 15%;
 padding-right: 15%;
 }
@@ -973,18 +973,18 @@ font-size: 56px;
 padding-left: 7%;
 padding-right:7%;
 text-align: center;
-font-size: 27px;
+font-size: 50px;
 line-height: 150%;
 padding-top: 68px;
 }
 
 .container2{
-  padding-top: 25px
+  padding-top: 125px
 }
 
 
 .btn1{
-  font-size: 19px;
+  font-size: 42px;
 }
 
 /* Images */
@@ -995,10 +995,35 @@ width: 100%;
 height: auto;
 padding: 10px;
 margin: 30px auto;
-padding-top: -100px;
+padding-top: 0px;
 }
 
 .croissant-img{
 text-align: center;
+padding-top: 10px;
+}
+
+
+.logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  margin-left: 50px;
+  text-decoration: none;
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+}
+
+
+.menu{
+  font-size: 50px;
+  padding-top: 200px;
+}
+
+li{
+  padding-top: 20px;
+  padding-right: 20px;
 }
 }
