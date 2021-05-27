@@ -1,11 +1,8 @@
 
 // Add active class to the current btn (highlighting the element)
-var header = document.getElementById("ul__nav");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
+$(document).ready(function(){
+    $('ul li a').click(function(){
+      $('li a').removeClass("active");
+      $(this).addClass("active");
   });
-}
+  });
