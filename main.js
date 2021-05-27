@@ -1,6 +1,6 @@
 
 // Add active class to the current btn (highlighting the element)
-var header = document.getElementById("myDIV");
+var header = document.getElementById("ul__nav");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
