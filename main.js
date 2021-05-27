@@ -1,4 +1,12 @@
 
-// Add active class to the current btn (highlighting the element)
+// Add active class to the current 'a' element (highlighting the element)
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll('a');
+const menuLength = menuItem.length
 
-const currentLocation = Location.href;
+for (let i = 0; i < menuLength; i++) {
+
+    if(menuItem[i].href === currentLocation) {
+        menuItem[i].className = 'active';
+    }
+}
