@@ -314,9 +314,22 @@ p{
 
 /* Buttons */
 
-.active{
-  background-color:#d90000;
-  color:#fff;
+ul li a.active{
+	color: #FFB75E;
+	transition: .22s ease-in-out;
+}
+
+ul li a.active:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 1;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 25%;
+  position: absolute;
+  background: #ED8F03;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 50%;
 }
 
 /* .active, .btn {
