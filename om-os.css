@@ -13,9 +13,22 @@ body {
 h1 {
     color: #eeebeb;
     font-family: "Work Sans", 700;
+    font-size: 60px;
+    text-align: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 p {
     color:#eeebeb;
     font-family: "Work Sans", 400;
-}                                   
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    }      
+    
+.brødtekst {
+    display: flex;
+    justify-items: center;
+}
