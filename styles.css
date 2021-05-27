@@ -405,6 +405,10 @@ p{
     .seperator {
         margin-bottom: -180px;
         }
+
+    .bd-grid {
+          margin: -70px auto;
+        }
 }
 
 /* Large Laptop Media Query */
