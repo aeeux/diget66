@@ -280,6 +280,10 @@ img{
     max-width: 500px;
   }
 
+.footer-img{
+    max-width: 30px;
+  }
+
 /* Fonts, Titles & Emojis  */
 
 .heading-big{
