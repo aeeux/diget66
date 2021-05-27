@@ -73,6 +73,7 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .header a:hover:after { 
   width: 10%; 
   left: 45%; 
@@ -313,10 +314,25 @@ p{
 
 /* Buttons */
 
-.active, .btn:hover {
-  background-color: #666;
-  color: white;
+.active, .btn {
+	color: #FFB75E;
+	transition: .22s ease-in-out;
+	top: -3px;
 }
+
+.active:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 1;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 25%;
+  position: absolute;
+  background: #ED8F03;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 50%;
+}
+
 
 .btn-center{
     text-align: center;
