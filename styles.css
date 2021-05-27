@@ -37,6 +37,8 @@ html, body {
   padding: 0;
   list-style: none;
   overflow: hidden;
+  text-align: center;
+  line-height: 50px;
 }
 
 .header li a {
@@ -73,7 +75,7 @@ a:after {
 }
 .header a:hover:after { 
   width: 10%; 
-  left: 0; 
+  left: 45%; 
 }
 
 
@@ -88,8 +90,8 @@ a:after {
   display: block;
   float: left;
   height: auto;
-  width: 1000%;
-  margin: 20px 20px 20px 100px;
+  width: 100px;
+  margin: 20px;
 }
 
 /* menu */
@@ -183,7 +185,11 @@ a:after {
       display: none;
     }
     .logo{
-      width: 200px;
+      display: block;
+      float: left;
+      height: auto;
+      width: 120px;
+      margin: 20px auto auto 150px;
     }
   }
 
