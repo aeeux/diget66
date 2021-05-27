@@ -314,7 +314,12 @@ p{
 
 /* Buttons */
 
-.active, .btn {
+.active{
+  background-color:#d90000;
+  color:#fff;
+}
+
+/* .active, .btn {
 	color: #FFB75E;
 	transition: .22s ease-in-out;
 	top: -3px;
@@ -331,7 +336,7 @@ p{
   background: #ED8F03;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 50%;
-}
+} */
 
 
 .btn-center{
