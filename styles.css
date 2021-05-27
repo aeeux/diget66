@@ -67,7 +67,7 @@ a:after {
   content: "";
   display: block;
   height: 2px;
-  left: 50%;
+  left: 40%;
   position: absolute;
   background: #ED8F03;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -437,7 +437,30 @@ p{
           text-align: center;
           justify-content: center;
         }
+<<<<<<< HEAD
         }
+=======
+
+    a:after {    
+          background: none repeat scroll 0 0 transparent;
+          bottom: 1;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 20%;
+          position: absolute;
+          background: #ED8F03;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 0;
+        }
+        
+    .header a:hover:after { 
+          width: 50%; 
+          left: 25%; 
+        }
+        
+}
+>>>>>>> 8dbfe16673ee60b3dfb2402a907da0396764805d
 
 /* Large Laptop Media Query */
 
