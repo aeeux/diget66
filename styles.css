@@ -407,6 +407,9 @@ p{
           text-align: center;
           justify-content: center;
         }
+        .emoji {
+          font-size: 2rem;
+          }
 }
 
 /* Medium Laptop Media Query */
@@ -474,10 +477,6 @@ p{
     p {
         font-size: 1.5rem;
 
-        }
-
-    .emoji {
-        font-size: 1.5rem;
         }
 
     .centered {
