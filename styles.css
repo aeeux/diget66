@@ -351,6 +351,15 @@ p{
     margin-bottom: -50px;
   }
 
+/* Center class */
+
+.centered {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
 /* Tablet Media Query */
 
 @media only screen and (min-width: 768px){
@@ -388,6 +397,12 @@ p{
     .seperator {
         margin-bottom: -250px;
         }
+    
+    .centered {
+          margin: auto;
+          text-align: center;
+          justify-content: center;
+        }
 }
 
 /* Medium Laptop Media Query */
@@ -408,6 +423,12 @@ p{
 
     .bd-grid {
           margin: -70px auto;
+        }
+
+    .centered {
+          margin: auto;
+          text-align: center;
+          justify-content: center;
         }
 }
 
@@ -434,5 +455,11 @@ p{
 
     .emoji {
         font-size: 1.5rem;
+        }
+
+    .centered {
+          margin: auto;
+          text-align: center;
+          justify-content: center;
         }
 }
