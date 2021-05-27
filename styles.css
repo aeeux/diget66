@@ -67,7 +67,7 @@ a:after {
   content: "";
   display: block;
   height: 2px;
-  left: 50%;
+  left: 40%;
   position: absolute;
   background: #ED8F03;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
