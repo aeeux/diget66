@@ -325,32 +325,12 @@ ul li a.active:after{
   content: "";
   display: block;
   height: 2px;
-  left: 25%;
+  left: 40%;
   position: absolute;
   background: #ED8F03;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 50%;
+  width: 20%;
 }
-
-/* .active, .btn {
-	color: #FFB75E;
-	transition: .22s ease-in-out;
-	top: -3px;
-}
-
-.active:after{
-  background: none repeat scroll 0 0 transparent;
-  bottom: 1;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 25%;
-  position: absolute;
-  background: #ED8F03;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 50%;
-} */
-
 
 .btn-center{
     text-align: center;
@@ -494,7 +474,24 @@ ul li a.active:after{
           width: 50%; 
           left: 25%; 
         }
+
+    ul li a.active{
+          color: #FFB75E;
+          transition: .22s ease-in-out;
+        }
         
+    ul li a.active:after{
+          background: none repeat scroll 0 0 transparent;
+          bottom: 1;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 25%;
+          position: absolute;
+          background: #ED8F03;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 50%;
+        }
 }
 
 /* Large Laptop Media Query */
