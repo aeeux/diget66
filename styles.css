@@ -41,16 +41,16 @@ html, body {
 
 .header li a {
   display: block;
-  margin: 20px;
+  margin: 0 20px 0px 20px;
   text-decoration: none;
   color: #fafafa;
+  font-size: 25px;
 }
 
 .header a:hover{
 	color: #FFB75E;
 	transition: .22s ease-in-out;
-	 top: -3px;
-	font-size: 110%;
+	top: -3px;
 }
 
 .header a{
@@ -87,11 +87,9 @@ a:after {
 .logo {
   display: block;
   float: left;
-  font-size: 2em;
-  padding: 10px 20px;
-  text-decoration: none;
-  width: 125px;
   height: auto;
+  width: 1000%;
+  margin: 20px 20px 20px 100px;
 }
 
 /* menu */
