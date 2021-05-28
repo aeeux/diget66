@@ -277,6 +277,13 @@ img{
     max-width: 30px;
   }
 
+  iframe{
+    width: 120%;
+    height: 400px;
+    style: none;
+    border: none;
+  }
+
 /* Fonts, Titles & Emojis  */
 
 .heading-big{
