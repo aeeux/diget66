@@ -11,7 +11,7 @@ html, body {
     font-size: 1.25rem;
     font-family: "work sans",sans-serif;
     line-height: 125%;
-    background-color: #0e0e0e;
+    background-color: #070707;
 }
 
 .bd-grid {
@@ -200,7 +200,7 @@ a:after {
   }
 
 .container__footer {
-  border-top: 1px solid #fafafa;
+    background-color: #0a0a0a;
     margin: 250px auto;
     display: grid;
     width: 100%;
@@ -413,7 +413,7 @@ ul li a.active:after{
       }
 
     p {
-        font-size: 5.5rem;
+        font-size: 1rem;
         text-align: left;
         }
         
@@ -543,7 +543,7 @@ ul li a.active:after{
         }
     .container .item--7 {
           background-color: rgba(220, 20, 60, 0);
-          margin: 0px 0 0 100px;
+          margin: 0px 0 0 0px;
         }
     .container .item--8 {
           background-color: rgba(47, 79, 79, 0);
@@ -564,12 +564,16 @@ ul li a.active:after{
       }
 
     .heading {
+        font-size: 3rem;
+        }
+
+    .heading-big {
         font-size: 2rem;
+        max-width: 800px;
         }
 
     p {
-        font-size: 1.5rem;
-
+        font-size: 1rem;
         }
 
     .centered {
