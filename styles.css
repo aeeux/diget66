@@ -34,7 +34,7 @@ html, body {
 
 .header ul {
   margin: 15px;
-  padding: 0;
+  padding: 10px;
   list-style: none;
   overflow: hidden;
   text-align: center;
@@ -443,9 +443,32 @@ ul li a.active:after{
           text-align: center;
           justify-content: center;
         }
-        .emoji {
+
+    .emoji {
           font-size: 2rem;
-          }
+        }
+
+    .container .item--3 {
+          margin: auto 0;
+        }
+    ul li a.active{
+          color: #FFB75E;
+          transition: .22s ease-in-out;
+        }
+        
+    ul li a.active:after{
+          background: none repeat scroll 0 0 transparent;
+          bottom: 1;
+          content: "";
+          display: block;
+          height: 2px;
+          left: 45%;
+          position: absolute;
+          background: #ED8F03;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+          width: 10%;
+        }
+
 }
 
 /* Medium Laptop Media Query */
@@ -525,6 +548,10 @@ ul li a.active:after{
     .container .item--8 {
           background-color: rgba(47, 79, 79, 0);
           margin: 0px 0 0 0px;
+        }
+
+    .container .item--3 {
+          margin: auto auto auto 50px;
         }
 }
 
