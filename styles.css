@@ -86,15 +86,6 @@ a:after {
     padding-bottom: -300px;
 }
 
-
-.logo {
-  display: block;
-  float: left;
-  height: auto;
-  width: 100px;
-  margin: 20px;
-}
-
 /* menu */
 
 .header .menu {
@@ -209,7 +200,7 @@ a:after {
   }
 
 .container__footer {
-    border-top: 3px solid #D17200;
+  border-top: 1px solid #fafafa;
     margin: 250px auto;
     display: grid;
     width: 100%;
@@ -257,6 +248,21 @@ a:after {
   }
 
 /* Images */
+
+.logo {
+  display: block;
+  float: left;
+  height: auto;
+  width: 100px;
+  margin: 20px;
+}
+
+.footer-logo {
+    display: block;
+    height: auto;
+    width: 200px;
+    margin: auto;
+}
 
 img{
     text-align: center;
@@ -402,8 +408,8 @@ ul li a.active:after{
         padding: 10px;
       }
 
-      .container {
-        margin: 280px auto;
+      .bd-grid {
+        margin: 200px auto;
       }
 
     p {
@@ -450,8 +456,8 @@ ul li a.active:after{
         padding: 65px;
       }
 
-      .container {
-        margin: 230px auto;
+      .container__footer{
+        margin: 250px auto;
       }
 
     .seperator {
@@ -459,7 +465,7 @@ ul li a.active:after{
         }
 
     .bd-grid {
-          margin: -70px auto;
+          margin: 0px auto;
         }
 
     .centered {
@@ -503,6 +509,23 @@ ul li a.active:after{
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
           width: 50%;
         }
+
+    .container .item--5 {
+          background-color: rgba(65, 105, 225, 0);
+          margin: 0px 0 0 0px;
+        }
+    .container .item--6 {
+          background-color: rgba(218, 165, 32, 0);
+          margin: 0px 0 0 0px;
+        }
+    .container .item--7 {
+          background-color: rgba(220, 20, 60, 0);
+          margin: 0px 0 0 100px;
+        }
+    .container .item--8 {
+          background-color: rgba(47, 79, 79, 0);
+          margin: 0px 0 0 0px;
+        }
 }
 
 /* Large Laptop Media Query */
@@ -511,10 +534,6 @@ ul li a.active:after{
 
     .container .item--2 {
         padding: 65px;
-      }
-
-      .container {
-        margin: 205px auto;
       }
 
     .heading {
