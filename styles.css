@@ -297,7 +297,7 @@ img{
 /* Fonts, Titles & Emojis  */
 
 .heading-big{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #eeebeb;
     line-height: 130%;
     text-align: center;
@@ -306,7 +306,7 @@ img{
     }
 
 .heading{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #eeebeb;
     line-height: 130%;
     text-align: center;
@@ -319,7 +319,7 @@ span {
 }
 
 .emoji {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 p{
@@ -421,33 +421,7 @@ ul li a.active:after{
         margin: 0;
         padding: 15px 25px;
     }
-
-    .heading-big {
-        font-size: 2.5rem;
-        color: #eeebeb;
-        line-height: 130%;
-        text-align: left;
-        }
-
-    .heading {
-        font-size: 2rem;
-        text-align: left;
-        }
-    
-    .seperator {
-        margin-bottom: -250px;
-        }
-    
-    .centered {
-          margin: auto;
-          text-align: center;
-          justify-content: center;
-        }
-
-    .emoji {
-          font-size: 2rem;
-        }
-
+  
     .container .item--3 {
           margin: auto 0;
         }
@@ -468,6 +442,34 @@ ul li a.active:after{
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
           width: 10%;
         }
+
+    /* Fonts, Titles & Emojis  */
+
+    .heading-big {
+      font-size: 3rem;
+      color: #eeebeb;
+      line-height: 130%;
+      text-align: left;
+      }
+
+  .heading {
+      font-size: 2.5rem;
+      text-align: left;
+      }
+  
+  .seperator {
+      margin-bottom: -250px;
+      }
+  
+  .centered {
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+      }
+
+  .emoji {
+        font-size: 2.2rem;
+      }
 
 }
 
@@ -553,6 +555,33 @@ ul li a.active:after{
     .container .item--3 {
           margin: auto auto auto 50px;
         }
+
+      /* Fonts, Titles & Emojis  */
+    .heading-big {
+        font-size: 3.5rem;
+        color: #eeebeb;
+        line-height: 130%;
+        text-align: left;
+        }
+
+    .heading {
+        font-size: 3rem;
+        text-align: left;
+        }
+    
+    .seperator {
+        margin-bottom: -250px;
+        }
+    
+    .centered {
+          margin: auto;
+          text-align: center;
+          justify-content: center;
+        }
+
+    .emoji {
+          font-size: 3rem;
+        }
 }
 
 /* Large Laptop Media Query */
@@ -563,13 +592,11 @@ ul li a.active:after{
         padding: 65px;
       }
 
-    .heading {
-        font-size: 3rem;
-        }
-
     .heading-big {
-        font-size: 2rem;
-        max-width: 800px;
+        font-size: 4.5rem;
+        color: #eeebeb;
+        line-height: 130%;
+        text-align: left;
         }
 
     p {
@@ -589,4 +616,24 @@ ul li a.active:after{
           border: none;
           padding-right: 200px;
         }
+
+    /* Fonts, Titles & Emojis  */
+    .heading {
+      font-size: 3.5rem;
+      text-align: left;
+      }
+  
+  .seperator {
+      margin-bottom: -250px;
+      }
+  
+  .centered {
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+      }
+
+  .emoji {
+        font-size: 3.5rem;
+      }
 }
