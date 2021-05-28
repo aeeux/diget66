@@ -24,11 +24,8 @@ p {
     color:#eeebeb;
     font-family: "Work Sans", 400;
     font-size: 20px;
-    text-align: center;
+    line-height: 30px;
     margin: 20px;
+    text-align: center;
     }      
-    
-.brødtekst {
-    display: flex;
-    justify-items: center;
-}
+
