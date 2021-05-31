@@ -378,6 +378,7 @@ ul li a.active:after{
 
      a {
       text-decoration: none;
+      color: inherit;
     }
 
   .btn-second {
