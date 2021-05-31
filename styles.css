@@ -86,6 +86,10 @@ a:after {
     padding-bottom: -300px;
 }
 
+.medier {
+  justify-items: center;
+}
+
 /* menu */
 
 .header .menu {
