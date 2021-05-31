@@ -69,7 +69,7 @@ a:after {
   height: 2px;
   left: 40%;
   position: absolute;
-  background: #ED8F03;
+  background: #fda43a;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -81,7 +81,7 @@ a:after {
 
 
 .header ul li.current-menu-item a{
-    border-bottom: 2px solid #ED8F03;
+    border-bottom: 2px solid #fda43a;
     display: inline-block;
     padding-bottom: -300px;
 }
@@ -345,7 +345,7 @@ ul li a.active:after{
   height: 2px;
   left: 40%;
   position: absolute;
-  background: #ED8F03;
+  background: #fda43a;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 20%;
 }
@@ -354,7 +354,7 @@ ul li a.active:after{
     text-align: center;
   }
   
-    .btn1 {background-image: linear-gradient(to right, #FFB75E 0%, #ED8F03  51%, #FFB75E  100%)}
+    .btn1 {background-image: linear-gradient(to right, #FFB75E 0%, #fda43a  51%, #FFB75E  100%)}
     .btn1 {
        margin: auto;
        padding: 10px 20px;
@@ -389,7 +389,7 @@ ul li a.active:after{
 
 .seperator {
     width: 80%;
-    border-color: #D17200;
+    border-color: #fda43a;
     margin-bottom: -50px;
   }
 
@@ -466,7 +466,7 @@ ul li a.active:after{
           height: 2px;
           left: 45%;
           position: absolute;
-          background: #ED8F03;
+          background: #fda43a;
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
           width: 10%;
         }
@@ -507,7 +507,7 @@ ul li a.active:after{
           height: 2px;
           left: 20%;
           position: absolute;
-          background: #ED8F03;
+          background: #fda43a;
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
           width: 0;
         }
@@ -530,7 +530,7 @@ ul li a.active:after{
           height: 2px;
           left: 25%;
           position: absolute;
-          background: #ED8F03;
+          background: #fda43a;
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
           width: 50%;
         }
