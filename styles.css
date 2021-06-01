@@ -407,6 +407,15 @@ ul li a.active:after{
 
 @media only screen and (min-width: 768px){
 
+    .logo {
+      display: block;
+      float: left;
+      height: auto;
+      width: 100px;
+      margin: 20px;
+      margin-left: 50px;
+    }
+
     .container .item--2 {
         padding: 10px;
       }
@@ -477,6 +486,15 @@ ul li a.active:after{
 /* Medium Laptop Media Query */
 
 @media only screen and (min-width: 1024px){
+
+    .logo {
+      display: block;
+      float: left;
+      height: auto;
+      width: 100px;
+      margin: 20px;
+      margin-left: 100px;
+    }  
 
     .container .item--2 {
         padding: 65px;
@@ -561,6 +579,15 @@ ul li a.active:after{
 /* Large Laptop Media Query */
 
 @media only screen and (min-width: 1440px){
+
+    .logo {
+      display: block;
+      float: left;
+      height: auto;
+      width: 100px;
+      margin: 20px;
+      margin-left: 100px;
+    }  
 
     .container .item--2 {
         padding: 65px;
