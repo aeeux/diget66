@@ -86,10 +86,6 @@ a:after {
     padding-bottom: -300px;
 }
 
-.medier {
-  justify-items: center;
-}
-
 /* menu */
 
 .header .menu {
@@ -275,6 +271,7 @@ img{
 .hero{
     width: 100%;
     height: auto;
+    border-radius: 20px;
   }
 
  .Omos-hero {
@@ -358,7 +355,7 @@ ul li a.active:after{
     text-align: center;
   }
   
-  .btn1 {background-image: linear-gradient(to right, #FFB75E 0%, #ED8F03  51%, #FFB75E  100%)}
+    .btn1 {background-image: linear-gradient(to right, #FFB75E 0%, #fda43a  51%, #FFB75E  100%)}
     .btn1 {
        margin: auto;
        padding: 10px 20px;
