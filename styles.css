@@ -264,6 +264,12 @@ a:after {
     margin: auto;
 }
 
+.footer-logo-img{
+width: 140px;
+height: auto;
+padding-top: 20px;
+}
+
 img{
     text-align: center;
 }
@@ -318,6 +324,10 @@ span {
     font-size: 1rem;
     color: #a5a5a5;
     font-weight: 100;
+}
+
+a:hover{
+color: #FFB75E;
 }
 
 .emoji {
