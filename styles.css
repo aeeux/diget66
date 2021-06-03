@@ -200,6 +200,7 @@ a:after {
   }
 
 .container__footer {
+  border-top: 2px solid #fda43a;
     background-color: #0a0a0a;
     margin: 250px auto;
     display: grid;
